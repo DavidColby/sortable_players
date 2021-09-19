@@ -1,24 +1,16 @@
-# README
+This repo demonstrates using Ruby on Rails and StimulusReflex to create a sortable table. The code in this repo is intended to accompany the tutorial originally published on [my blog](https://www.colby.so/posts/a-sortable-table-with-rails-and-stimulusreflex)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To follow along with the tutorial, work from the main branch. The final, working implementation lives in the sortable branch.
 
-Things you may want to cover:
+## Project setup
 
-* Ruby version
+After cloning this repo:
 
-* System dependencies
+bundle install
+rails db:create && db:migrate
 
-* Configuration
+After setup, visit http://localhost:3000/players.
 
-* Database creation
+The final implementation can also be seen [on Heroku](https://stark-peak-59471.herokuapp.com)
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
